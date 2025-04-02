@@ -6,7 +6,7 @@ const methods = {
   increase: (state) => ({ ...state, count: state.count + 1 }),
 };
 
-const initialState = { count: 0 };
+const initialState = { count: 1 };
 
 const template = ({ count, methods }) =>
   div`${onClick(() => {
