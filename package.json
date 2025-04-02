@@ -1,12 +1,13 @@
 {
   "name": "foo",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "mfrachet <marvin.frachet@zenika.com>",
+  "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js",
-    "start": "node build.js --watch"
+    "build": "node ./build/build.js",
+    "start": "node ./build/serve.js",
+    "analyze": "node ./build/analyze.js"
   },
   "dependencies": {
     "snabbdom": "0.7.1"

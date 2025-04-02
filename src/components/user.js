@@ -1,6 +1,6 @@
-import { createComponent } from "../framework";
-import { div } from "../framework/element";
-import { onClick } from "../framework/event";
+import { createComponent } from "../../framework";
+import { div } from "../../framework/element";
+import { onClick } from "../../framework/event";
 
 const methods = {
   changeName: (state, firstName) => ({ ...state, firstName }),
